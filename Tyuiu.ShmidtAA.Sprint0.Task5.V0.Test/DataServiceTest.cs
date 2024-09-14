@@ -7,7 +7,7 @@ namespace Tyuiu.ShmidtAA.Sprint0.Task5.V0.Test
         [TestMethod]
         public void CheckedAdditionValid()
         {
-            Assert.AreEqual(10,DataService.Addition(5,5));
+            Assert.AreEqual(10, DataService.Addition(5, 5));
         }
 
         [TestMethod]
@@ -25,6 +25,7 @@ namespace Tyuiu.ShmidtAA.Sprint0.Task5.V0.Test
         }
 
         [TestMethod]
+
         public void CheckedDivisonValid()
         {
             Assert.AreEqual(3, DataService.Division(9, 3));
