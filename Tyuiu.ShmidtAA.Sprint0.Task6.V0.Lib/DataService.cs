@@ -19,7 +19,7 @@
             var total = 0;
             var index = 0;
 
-            while (index != numbers.Length)
+            while (index < numbers.Length)
             {
                 total = total - numbers[index];
                 index ++;
@@ -36,7 +36,7 @@
             {
                 total = total * numbers[index];
                 index ++;
-            } while (index != numbers.Length);
+            } while (index < numbers.Length);
             return total;
         }
 
