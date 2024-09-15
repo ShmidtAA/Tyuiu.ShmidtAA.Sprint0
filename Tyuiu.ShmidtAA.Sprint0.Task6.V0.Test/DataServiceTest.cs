@@ -5,7 +5,7 @@ namespace Tyuiu.ShmidtAA.Sprint0.Task6.V0.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckAdditionValid()
+        public void CheckAdditionArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5};
             var res = DataService.AdditionArray(numbers);
@@ -13,14 +13,14 @@ namespace Tyuiu.ShmidtAA.Sprint0.Task6.V0.Test
 
         }
         [TestMethod]
-        public void CheckSubtractionValid()
+        public void CheckSubstractionArrayValid()
         {
             var numbers = new int[] {1,2,3,4,5 };
             var res = DataService.SubtractionArray( numbers);
             Assert.AreEqual(-15, res);
         }
         [TestMethod]
-        public void CheckMultiplicationValid()
+        public void CheckMultArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.MultiplicationArray(numbers);
