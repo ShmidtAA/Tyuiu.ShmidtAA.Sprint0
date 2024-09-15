@@ -8,7 +8,7 @@
 
             for (var i=0; i < numbers.Length; i++)
             {
-                total +=numbers[i];
+                total = total + numbers[i];
 
             }
             return total;
@@ -21,7 +21,7 @@
 
             while (index != numbers.Length)
             {
-                total -= numbers[index];
+                total = total - numbers[index];
                 index ++;
             }
             return total;
@@ -34,7 +34,7 @@
 
             do
             {
-                total *= numbers[index];
+                total = total * numbers[index];
                 index ++;
             } while (index != numbers.Length);
             return total;
