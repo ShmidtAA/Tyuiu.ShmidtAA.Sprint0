@@ -30,7 +30,7 @@
         public static object MultiplicationArray(int[] numbers)
         {
             var total = 1;
-            var index = 0;
+            int index = 0;
 
             do
             {
