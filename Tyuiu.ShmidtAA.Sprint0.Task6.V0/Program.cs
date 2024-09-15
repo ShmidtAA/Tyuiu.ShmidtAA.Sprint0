@@ -9,9 +9,9 @@ namespace Tyuiu.ShmidtAA.Sprint0.Task6.V0
 
             Console.WriteLine("Сумма элементов массива " + DataService.AdditionArray(arraynums));
 
-            Console.WriteLine("Разницы элементов массива " + DataService.SubtractionArray(arraynums));
+            Console.WriteLine("Разность элементов массива " + DataService.SubtractionArray(arraynums));
 
-            Console.WriteLine("Умножение элементов массива " + DataService.MultiplicationArray(arraynums));
+            Console.WriteLine("Произведение элементов массива " + DataService.MultiplicationArray(arraynums));
 
             Console.ReadKey();
         }
